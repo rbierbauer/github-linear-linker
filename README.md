@@ -3,8 +3,6 @@
 This Chrome extension adds a button on GitHub branch pages (`/tree/...`) that links directly to the corresponding Linear task, based on the branch name.  
 It detects Linear IDs like `rea-681` in the branch name and creates a shortcut button.
 
-![alt text](image.png)
-
 ## Features
 
 - Works on any GitHub repository branch page (`https://github.com/.../tree/...`).
