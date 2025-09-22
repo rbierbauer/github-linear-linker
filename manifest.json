@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub → Linear Linker",
+  "version": "1.0.0",
+  "description": "Adds a button on GitHub pages that links branch/task IDs to Linear.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
